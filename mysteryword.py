@@ -45,7 +45,7 @@ words = file.read()
 words = words.split()
 
 #Gamemode
-mode = str(input("How hard do you want this shit to be? (e)asy, (m)edium, or, (i)mpossible? "))
+mode = str(input("How hard do you want this thing to be? (e)asy, (m)edium, or, (i)mpossible? "))
 
 if mode == "e":
     flag = True
