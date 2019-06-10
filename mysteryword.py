@@ -117,11 +117,11 @@ while flag == True:
         print("\nMystery Word!: " + str("".join(main)))
         
     if str("".join(main)) == mysteryWord:
-        print("Congratulations, boy, you've won.")
+        print("Congratulations, friend, you've won.")
         break
 
     counter += 1
-    if counter > 7:
+    if counter > 8:
         print("You've lust, dummmmmyyyy boooooiiiiiiii")
         break
     
