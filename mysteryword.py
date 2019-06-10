@@ -57,14 +57,14 @@ if mode == "e":
 if mode == "m":
     flag = True
     while flag == True:
-        randomNumber = random.randint(0,len(words))
+        randomNumber = random.randint(0,len(words) - 1)
         if len(words[randomNumber]) >= 6 and len(words[randomNumber]) <= 8:
             break
                 
 if mode == "i":
     flag = True
     while flag == True:
-        randomNumber = random.randint(0,len(words))
+        randomNumber = random.randint(0,len(words) - 1)
         if len(words[randomNumber]) >= 8:
             break
                 
